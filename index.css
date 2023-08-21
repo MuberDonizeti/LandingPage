@@ -110,6 +110,66 @@ h2{
     width: 40px;
 }
 
+.courses-section {
+    padding-bottom: 8rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.25rem;
+    margin-top: -8rem;
+    margin-bottom: 4rem;
+}
+
+.card{
+    background-color: var(--color-primary);
+    border: 2px solid black;
+    box-shadow: 4px 4px 0 black;
+    max-width: 17rem;
+    padding: 2rem 0 2rem 2rem;
+}
+
+.card:nth-child(2n){
+    align-self: end;
+    background-color: var(--color-secondary);
+}
+
+.card strong{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.card a {
+    display: block;
+    margin-top: 1rem;
+}
+
+footer{
+    border-bottom: 0;
+    padding: 1rem 1.25rem 4rem;
+}
+footer nav a{
+    display: block;
+    padding-left: 0;
+}
+.newsForm label{
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.newsForm input{
+    border: 2px solid black;
+    box-shadow: 4px 4px 0 black;
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+
 
 .mt-1{
     margin-top: 1rem;
@@ -118,7 +178,7 @@ h2{
     margin-top: 2rem;
 }
 .mb-2{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .mx-auto {
